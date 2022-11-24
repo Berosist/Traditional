@@ -1,5 +1,5 @@
-const INITIAL_VELOCITY = 0.022
-const VELOCITY_INCREASE = 0.000001 // set starting velocity and how aggressive velocity scales over time
+const INITIAL_VELOCITY = 0.06
+const VELOCITY_INCREASE = 0.000003 // set starting velocity and how aggressive velocity scales over time
 
 export default class Ball {
   constructor(ballElem) {
